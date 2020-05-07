@@ -29,6 +29,7 @@ class TestMain:
         mp.open_url()
         # time.sleep(10)
         mp.join_course(test_info['course_code'])
+        mp.open_url()
         mp.jump_to_class()
         cp.change_banner()
         cp.driver.refresh()
