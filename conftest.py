@@ -19,7 +19,7 @@ def get_browser_cls():
             driver_path = f'chromedriver_{conf.get("common","driver_version")}.exe'
         elif sys.platform == 'linux':
             driver_path = f'chromedriver_{conf.get("common","driver_version")}'
-            opt.binary_location('/usr/bin/chromium-browser')
+            opt.binary_location = '/usr/bin/chromium-browser'
             opt.add_argument('--headless')
         opt.add_argument('--no-sandbox')
         opt.add_argument('window-size=1920x1080')
@@ -40,7 +40,7 @@ def get_browser_func():
             driver_path = f'chromedriver_{conf.get("common","driver_version")}.exe'
         elif sys.platform == 'linux':
             driver_path = f'chromedriver_{conf.get("common","driver_version")}'
-            opt.binary_location('/usr/bin/chromium-browser')
+            opt.binary_location = '/usr/bin/chromium-browser'
             opt.add_argument('--headless')
         opt.add_argument('--no-sandbox')
         opt.add_argument('window-size=1920x1080')
