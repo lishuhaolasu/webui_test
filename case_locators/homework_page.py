@@ -13,7 +13,7 @@ class HomeworkPage:
     submit_buttom = (By.CSS_SELECTOR, ".new-tj2",'WAIT_FOR_CLICKABLE')
     uploading = (By.CLASS_NAME,'ing')
     success_notice = (
-        By.XPATH, "//a[contains(@class,'weui_btn_dialog primary')]", "WAIT_FOR_VISIBLE")
+        By.XPATH, "//a[contains(@class,'weui_btn_dialog')]", "WAIT_FOR_VISIBLE")
     update_upload = (By.XPATH,"//a[@class='new-tj1']")
     update_comfirm = (By.XPATH,"//a[contains(@class,'sure active') and contains(text(),'确定')]")
     remove_uploaded = (By.XPATH,"//a[contains(@class,'cancel hide')]")
