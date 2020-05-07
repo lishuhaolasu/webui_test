@@ -32,3 +32,5 @@ class TestChat:
         cp.open_to_chat()
         cp.search_user(test_info['username'])
         cp.send_msg(test_info['msg'])
+        mp.open_url()
+        mp.quit_class()
