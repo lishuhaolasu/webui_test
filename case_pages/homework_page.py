@@ -45,7 +45,7 @@ class HomeworkPage(BasePage):
         except :
             pass    
         e = self.find_element(HP.submit_buttom)
-        self.ac.move_to_element(e).perform()
+        # self.ac.move_to_element(e).perform()
         e.click()
         # self.find_element(HP.success_notice).click()
         self.ac.click()
