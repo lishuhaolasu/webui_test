@@ -32,4 +32,4 @@ BINS_DIR = os.path.join(BASE_DIR,'bins')
 
 pl = [p for p in globals() if p.endswith('DIR')]
 for p in pl :
-    os.makedirs(p,exist_ok=True)
+    os.makedirs(globals()[p],exist_ok=True)
