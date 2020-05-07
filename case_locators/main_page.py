@@ -12,7 +12,7 @@ class MainPage:
     comfirm_join = (By.XPATH,"//a[contains(text(),'加入')]")
     skip_tutorial = (
         By.XPATH, "//a[contains(@class,'introjs-button') and contains(@class,'introjs-skipbutton')]", 'WAIT_FOR_VISIBLE')
-    jump_to_class = (By.XPATH, "//a[@class='jumptoclass']")
+    jump_to_class = (By.XPATH, "//a[@class='jumptoclass']", 'WAIT_FOR_VISIBLE')
     more_button = (
         By.XPATH, "//span[contains(text(),'更多')]", 'WAIT_FOR_VISIBLE')
     quit_course = (By.XPATH, "//*[@class='kdli3']", 'WAIT_FOR_VISIBLE')
