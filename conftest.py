@@ -17,6 +17,7 @@ def get_browser_cls():
         opt = Options()
         if sys.platform == 'win32':
             driver_path = f'chromedriver_{conf.get("common","driver_version")}.exe'
+            opt.add_argument('--headless')
         elif sys.platform == 'linux':
             driver_path = f'chromedriver_{conf.get("common","driver_version")}'
             opt.binary_location = '/usr/bin/chromium-browser'
@@ -38,6 +39,7 @@ def get_browser_func():
         opt = Options()
         if sys.platform == 'win32':
             driver_path = f'chromedriver_{conf.get("common","driver_version")}.exe'
+            opt.add_argument('--headless')
         elif sys.platform == 'linux':
             driver_path = f'chromedriver_{conf.get("common","driver_version")}'
             opt.binary_location = '/usr/bin/chromium-browser'

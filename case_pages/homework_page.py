@@ -29,8 +29,8 @@ class HomeworkPage(BasePage):
             ele.click()
     
     def upload_homework(self,filepath):
-        self.find_element(HP.upload_button).click()
-        self.upload_file(HP.upload_button,filepath)
+        # self.find_element(HP.upload_button).click()
+        self.upload_file(HP.upload_button,filepath,isinput=True)
 
     def leave_message(self,msg):
         self.find_element(HP.message_input).click()

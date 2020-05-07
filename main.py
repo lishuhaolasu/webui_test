@@ -7,7 +7,8 @@ from common_utils import getdatepath
 if __name__ == '__main__':
     date_now = time.strftime('%Y%m%d-%H%M%S',time.localtime(time.time()))
     full_report_filename = getdatepath(prefix=REPORT_DIR,filename=f'report-{date_now}.html')
-    pytest.main(['--html',full_report_filename,'-m','smoke','--reruns','0'])
+    pytest.main(['--html',full_report_filename,'-m','smoke','--reruns','3'])
+
 
 
     

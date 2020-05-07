@@ -4,7 +4,8 @@ __all__ = ['HomeworkPage']
 
 
 class HomeworkPage:
-    upload_button = (By.CSS_SELECTOR, '.sc-btn.webuploader-container')
+    upload_button = (By.XPATH,"//input[@name='file']")
+    # upload_button = (By.CSS_SELECTOR, '.sc-btn.webuploader-container')
     message_input = (By.XPATH, "//span[@class='s2']")
     message_save = (By.ID,'comment')
     submit_input = (
