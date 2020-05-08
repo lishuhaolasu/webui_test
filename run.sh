@@ -1,6 +1,7 @@
-#! /bin/bash
+#! /bin/bash -l
 echo $SHELL
+source deactivate
 chmod +x bins/*
 export DISPLAY=':2'
-/home/lasu/miniforge3/condabin/conda init
-/home/lasu/miniforge3/condabin/conda activate pytest
+source init
+source activate pytest
