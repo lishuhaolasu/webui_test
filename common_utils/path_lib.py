@@ -25,7 +25,7 @@ LOG_DIR = os.path.join(BASE_DIR, 'logs')
 SCREENSHOT_DIR = os.path.join(BASE_DIR, 'screenshots')
 
 # 报告目录
-REPORT_DIR = os.path.join(BASE_DIR, 'reports')
+REPORT_DIR = os.path.join(BASE_DIR, 'allure-results')
 
 # 二进制文件
 BINS_DIR = os.path.join(BASE_DIR,'bins')
