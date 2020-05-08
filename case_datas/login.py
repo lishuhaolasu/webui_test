@@ -61,6 +61,7 @@ login_failed = [
     {'user_id': "yg12hg0h2",'user_pw': conf.get('common', 'user_pw'),'expected': '用户不存在'},
     {'user_id': "yg12hg0h2",'user_pw': conf.get('common', 'user_pw'),'expected': '用户不存在'},
     {'user_id': "yg12hg0h2",'user_pw': conf.get('common', 'user_pw'),'expected': '用户不存在'},
+    {'user_id': "yg12hg0h2",'user_pw': conf.get('common', 'user_pw'),'expected': '用户不存在'},
      {
         'user_id': conf.get('common', 'user_id'),
         'user_pw': conf.get('common', 'user_pw').lower(),
