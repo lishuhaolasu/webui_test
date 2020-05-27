@@ -21,5 +21,69 @@ login_failed = [
         'user_id': conf.get('common', 'user_id'),
         'user_pw': '123',
         'expected': '密码有效长度是6到30个字符'
+    }, {
+        'user_id': conf.get('common', 'user_id'),
+        'user_pw': '123',
+        'expected': '密码有效长度是6到30个字符'
+    }, {
+        'user_id': conf.get('common', 'user_id'),
+        'user_pw': '123',
+        'expected': '密码有效长度是6到30个字符'
+    }, {
+        'user_id': conf.get('common', 'user_id'),
+        'user_pw': '123',
+        'expected': '密码有效长度是6到30个字符'
+    }, {
+        'user_id': conf.get('common', 'user_id'),
+        'user_pw': '123',
+        'expected': '密码有效长度是6到30个字符'
+    }, {
+        'user_id': conf.get('common', 'user_id'),
+        'user_pw': '123',
+        'expected': '密码有效长度是6到30个字符'
+    }, {
+        'user_id': conf.get('common', 'user_id'),
+        'user_pw': '123',
+        'expected': '密码有效长度是6到30个字符'
+    }, {
+        'user_id': conf.get('common', 'user_id'),
+        'user_pw': '123',
+        'expected': '密码有效长度是6到30个字符'
+    }, {
+        'user_id': conf.get('common', 'user_id'),
+        'user_pw': '123',
+        'expected': '密码有效长度是6到30个字符'
+    }, {
+        'user_id': conf.get('common', 'user_id'),
+        'user_pw': '123',
+        'expected': '密码有效长度是6到30个字符'
+    }, {
+        'user_id': conf.get('common', 'user_id'),
+        'user_pw': '123',
+        'expected': '密码有效长度是6到30个字符'
+    }, {
+        'user_id': conf.get('common', 'user_id'),
+        'user_pw': '123',
+        'expected': '密码有效长度是6到30个字符'
+    }, {
+        'user_id': conf.get('common', 'user_id'),
+        'user_pw': '123',
+        'expected': '密码有效长度是6到30个字符'
+    }, {
+        'user_id': conf.get('common', 'user_id'),
+        'user_pw': '123',
+        'expected': '密码有效长度是6到30个字符'
+    }, {
+        'user_id': conf.get('common', 'user_id'),
+        'user_pw': '123',
+        'expected': '密码有效长度是6到30个字符'
+    }, {
+        'user_id': conf.get('common', 'user_id'),
+        'user_pw': '123',
+        'expected': '密码有效长度是6到30个字符'
+    }, {
+        'user_id': conf.get('common', 'user_id'),
+        'user_pw': '123',
+        'expected': '密码有效长度是6到30个字符'
     }
 ]
